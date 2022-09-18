@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <title>Actividad 3: Formularios y click event</title>
+</head>
+
+<body>
+  <div id="logo">
+    <img src="logo/logo.png" alt="Imagen">
+  </div>
+
+  <div id="table-container">
+    <form id="miFormulario" name="formulario">
+      <input type="text" name="userName" id="userName" placeholder="Introduce Usuario" required>
+      <input type="password" name="password" id="password" placeholder="Introduce Contraseña" required>
+      <button onclick=crearTabla() type="submit"  class="btn">Login</button>
+      <!-- <button onclick=crearTabla()>Crear Tabla</button> -->
+    </form>
+  </div>
+
+
+  <div class="message hide">
+
+    <p id="messageDetails"></p>
+
+    <a href="" class="btn">Reset</a>
+
+</div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
